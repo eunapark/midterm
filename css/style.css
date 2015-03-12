@@ -27,11 +27,21 @@ img{
 
 h1{
 	font-color: #000;
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-left: 100px;
 	font-size: 50px;
-	width: 500px;
+	width: 900px;
 	font-family: 'Crimson Text', serif;
+
+}
+h2{
+	font-color: #000;
+	/*padding-top: 50px;*/
+	padding-left: 100px;
+	font-size: 14px;
+	width: 900px;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
 
 }
 
@@ -73,11 +83,21 @@ h1{
 }
 
 #intro{
-	background:url(../imgs/Korearight.png) no-repeat fixed 50% 0px transparent;
+	background:url(../imgs/hanok2.jpg) no-repeat fixed 50% 0px transparent;
 	color: #000;
 	height: 800px;
 	margin-top: -50px;
 /*	padding-bottom: 100px;*/
+}
+
+#intro .bg{
+	background: url(../imgs/FirstKorea.png) 50% 0 no-repeat fixed;
+	height: 800px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 900px;
+	z-index: 200;
 }
 
 #second{
@@ -114,16 +134,16 @@ h1{
 	color: #000;
 	height: 700px;
 	margin: 0 auto;
-	padding-top: 70px;
+	padding-top: 100px;
 }
 
 #fifth{
-	/*background: url(../imgs/quotes2.png) 65% 0 no-repeat fixed;*/
+	background: url(../imgs/yunaback.jpg) 65% 0 no-repeat fixed;
 	color: #000;
-	height: 500px;
+	height: 720px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
-	padding-top: 200px;
+	padding-top: 100px;
 }
 
 .story{
@@ -133,7 +153,7 @@ h1{
 	width: 980px;
 	padding-left: 8em;
 	position: absolute;
-	margin-top: 100px;
+	margin-top: 75px;
 	font-family: 'Crimson Text', serif;
 	font-size: 14px;
 	/*margin: 0 auto;
@@ -145,7 +165,7 @@ h1{
 .story .float-left, .story .float-right{
 /*	padding: 100px 0 0 0;*/
 	position: relative;
-	width: 350px;	
+	width: 400px;	
 }
 
 .sentence{
@@ -158,7 +178,7 @@ h1{
 }
 
 .quotes{
-	margin: 50px auto;
+	margin: 0px auto;
 	/*min-width: 980px;*/
 	overflow: auto;
 	width: 550px;
@@ -167,4 +187,5 @@ h1{
 	font-color: #000000;
 	text-align: justify;
 	font-size: 30px;
+	font-weight: 700;
 }
